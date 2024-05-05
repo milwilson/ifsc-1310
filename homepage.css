@@ -17,8 +17,12 @@ nav {
     color: #0077cc;
   }
 
-  .images {
-    border: 2px solid black
-    display: inline-block;
-    margin-right: 10px;
-  }
+.images {
+  display: flex;
+  gap: 10px;
+}
+
+.images img {
+  border: 2px solid black;
+  max-width: 100%;
+}
