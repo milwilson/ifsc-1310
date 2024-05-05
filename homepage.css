@@ -16,3 +16,9 @@ nav {
   nav a:hover {
     color: #0077cc;
   }
+
+  .images {
+    border: 2px solid black
+    display: inline-block;
+    margin-right: 10px;
+  }
